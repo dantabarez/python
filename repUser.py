@@ -1,0 +1,7 @@
+#Escribir un programa que pregunte el nombre del usuario en la consola y un número entero e imprima por pantalla 
+# en líneas distintas el nombre del usuario tantas veces como el número introducido.
+
+nombreUser=input("ingrese nombre de usuario= ")
+repUser=int(input("numero de veces a repetir= "))
+
+print((nombreUser + "\n") * repUser)
