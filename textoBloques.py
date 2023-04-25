@@ -1,3 +1,4 @@
+#este programa permite dividir en bloques un archivo de texto plano para que sea digerible para chatgpt 3.5 y 4
 def separar_texto_en_bloques(ruta_archivo):
     with open(ruta_archivo, 'r') as archivo:
         texto_completo = archivo.read()
@@ -17,7 +18,7 @@ def separar_texto_en_bloques(ruta_archivo):
 
         return bloques
 
-
+#los archivos de origen y destino deben estar en la misma ruta del script
 ruta_archivo = 'texto.txt'
 bloques = separar_texto_en_bloques(ruta_archivo)
 
