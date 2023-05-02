@@ -1,7 +1,7 @@
 from scapy.all import ARP, Ether, srp
 
 # Define la dirección de red a escanear
-direccion_red = "172.17.8.0/24"
+direccion_red = "10.11.33.0/24"
 
 # Crea una solicitud ARP para buscar los hosts en la red
 arp = ARP(pdst=direccion_red)
